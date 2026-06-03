@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+     <%- include('partials/head.ejs')  %>
+</head>
+<body>
+
+     <%- include('partials/navigation.ejs') %>
+
+    <h1> Contact</h1>
+
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+       <div class="card">
+        <div class="card-header">
+            <h3> Contact me</h3>
+        </div>
+        <div class="card-body">
+            <form>
+                <laber for="email"> E-mail</laber>
+                <input type="email" placeholder="Email">
+
+                <laber for="message">Message</laber>
+                <textarea name="message" rows="3"> </textarea>
+                <button>Save</button>
+
+            </form>
+        </div>
+
+       </div>
+    
+
+    </div>
+    
+</body>
+</html>
